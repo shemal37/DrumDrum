@@ -15,23 +15,27 @@ body {
   border: 0.2rem solid lightcoral;
   border-radius: 0.5rem;
   margin: 1rem;
-  font-size: 1.5rem;
-  padding: 0.6rem 0.3rem;
-  transition: all 1.5s ease;
+  padding: 0.3rem 0.3rem;
+  transition: all 0.07s linear;
   width: 6rem;
   text-align: center;
   color: white;
   background: rgba(0, 0, 0, 0.4);
   text-shadow: 0 0 0.5rem black;
 }
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
 
 kbd {
   display: block;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .sound {
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   color: #ffc600;
